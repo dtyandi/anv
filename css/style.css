@@ -41,12 +41,12 @@ h2 {
     height: 100vh;
     overflow: hidden;
     z-index: 1;
-    background-image: url(../gallery/wreath21d.png), url(../gallery/wreath21e.png), url(../gallery/wreath21f.png), url(../gallery/wreath21g.png), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../gallery/wedg5.jpg);
-    background-position: bottom 10px right 10px, bottom 10px left 10px, top 10px left 10px, top 10px right 10px, center, top center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../gallery/wedg5.jpg);
+    background-position: center, top center;
     background-repeat: no-repeat;
-    -webkit-background-size: auto, auto, auto, auto, auto, cover;
-    -moz-background-size: auto, auto, auto, auto, auto, cover;
-    background-size: auto, auto, auto, auto, auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    background-size: auto, cover;
 }
 
 .introcov {
@@ -72,12 +72,12 @@ h2 {
 }
 
 .bgcouple {
-    background: url(../gallery/wreath21f.png), url(../gallery/wreath21g.png), url(../gallery/25911eb7.png) #212121;
+    background: url(../gallery/25911eb7.png) #212121;
     background-position: top 10px left 10px, top 10px right 10px;
-    background-repeat: no-repeat, no-repeat, repeat;
+    background-repeat: repeat;
 }
 
-.bgguest {
+.bgguestbook {
     background: url(../gallery/wreath16a.png) no-repeat bottom right -50px, url(../gallery/wreath16b.png) no-repeat bottom left -50px, url(../gallery/25911eb7.png) repeat, #212121;
 }
 
@@ -86,9 +86,9 @@ h2 {
 }
 
 .bgdate {
-    background: url(../gallery/wreath21d.png), url(../gallery/wreath21e.png), url(../gallery/25911eb7.png), #212121;
+    background: url(../gallery/25911eb7.png), #212121;
     background-position: bottom 10px right 10px, bottom 10px left 10px;
-    background-repeat: no-repeat, no-repeat, repeat;
+    background-repeat: repeat;
 }
 
 .wayangdate {
@@ -142,7 +142,7 @@ h2 {
     }
 
     .bgcov {
-        background-size: 100px, 100px, 100px, 100px, auto, cover;
+        background-size: auto, cover;
     }
 
     .bgcouple {
@@ -321,7 +321,7 @@ iframe {
 .bgheader {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../gallery/carousel-uk-1.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -343,7 +343,7 @@ iframe {
 }
 
 .bgproduk {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../gallery/carousel-uk-2.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
